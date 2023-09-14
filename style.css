@@ -1,0 +1,15 @@
+#top{
+    min-height: 80px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#Rubrik{
+    border: 5px solid black;
+    background-color: aqua;
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+}
