@@ -1,3 +1,7 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
 #top{
     min-height: 80px;
     border: 5px solid red;
@@ -15,20 +19,28 @@
 }
 a{
     font-family: monospace;
-    font-size: 20 px;
+    font-size: 20px;
 }
 #mitten{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
+    border: 3px solid orange;
+    height: 200px;
+    gap: 10px;
+
 }
 #v{
     border: 5px solid black;
     background-color: yellow;
+    min-width: 49%;
 }
 #h{
     border: 5px solid black;
     background-color: pink;
+    min-width: 49%;
+}
+.lorem{
+    border: 2px solid yellow;
 }
